@@ -18,6 +18,34 @@ class GildedRose {
         final boolean isBackstagePass = item.name.equals("Backstage passes to a TAFKAL80ETC concert");
         final boolean isSulfuras = item.name.equals("Sulfuras, Hand of Ragnaros");
 
+        if(isAgedBrie)
+            updateForAgedBrie(item);
+        else if(isBackstagePass)
+            updateForBackstagePass(item);
+        else if(isSulfuras)
+            updateForSulfuras(item);
+        else
+            updateDefault(item);
+    }
+
+    private void updateDefault(Item item) {
+        updateQualityAndSellIn(item, false, false, false);
+    }
+
+    private void updateForSulfuras(Item item) {
+        updateQualityAndSellIn(item, false, false, true);
+    }
+
+    private void updateForBackstagePass(Item item) {
+        updateQualityAndSellIn(item, false, true, false);
+    }
+
+    private void updateForAgedBrie(Item item) {
+        updateQualityAndSellIn(item, true, false, false);
+    }
+
+    private void updateQualityAndSellIn(Item item, boolean isAgedBrie, boolean isBackstagePass, boolean isSulfuras) {
+        final boolean isOther = !(isAgedBrie || isBackstagePass || isSulfuras);
         if (!isAgedBrie && !isBackstagePass) {
             if (item.quality > 0) {
                 if (!isSulfuras) {

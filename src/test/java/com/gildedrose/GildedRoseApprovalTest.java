@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//@UseReporter(QuietReporter.class)
+@UseReporter(QuietReporter.class)
 public class GildedRoseApprovalTest {
 
     @Test
