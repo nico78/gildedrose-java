@@ -1,13 +1,15 @@
 package com.gildedrose;
 
 import org.approvaltests.Approvals;
+import org.approvaltests.reporters.QuietReporter;
+import org.approvaltests.reporters.UseReporter;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
+
+//@UseReporter(QuietReporter.class)
 public class GildedRoseApprovalTest {
 
     @Test

@@ -4,7 +4,23 @@
     <artifactId>gildedrose-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-maven</artifactId>
+            <version>1.1.9</version>
+            <configuration>
+                <targetClasses>
+                    <param>com.gildedrose*</param>
+                </targetClasses>
+                <targetTests>
+                    <param>com.gildedrose*</param>
+                </targetTests>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
     <dependencies>
 
         <dependency>
@@ -32,5 +48,12 @@
             <scope>test</scope>
             <version>[4.11,)</version>
         </dependency>
+        <dependency>
+            <groupId>approval-tests</groupId>
+            <artifactId>approval-tests</artifactId>
+            <scope>test</scope>
+            <version>013</version>
+        </dependency>
+
     </dependencies>
 </project>
