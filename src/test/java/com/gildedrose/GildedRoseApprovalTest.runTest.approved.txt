@@ -1,0 +1,249 @@
+day|name|sellIn|quality
+0|+5 Dexterity Vest|10|20
+1|+5 Dexterity Vest|9|19
+2|+5 Dexterity Vest|8|18
+3|+5 Dexterity Vest|7|17
+4|+5 Dexterity Vest|6|16
+5|+5 Dexterity Vest|5|15
+6|+5 Dexterity Vest|4|14
+7|+5 Dexterity Vest|3|13
+8|+5 Dexterity Vest|2|12
+9|+5 Dexterity Vest|1|11
+10|+5 Dexterity Vest|0|10
+11|+5 Dexterity Vest|-1|8
+12|+5 Dexterity Vest|-2|6
+13|+5 Dexterity Vest|-3|4
+14|+5 Dexterity Vest|-4|2
+15|+5 Dexterity Vest|-5|0
+16|+5 Dexterity Vest|-6|0
+17|+5 Dexterity Vest|-7|0
+18|+5 Dexterity Vest|-8|0
+19|+5 Dexterity Vest|-9|0
+20|+5 Dexterity Vest|-10|0
+21|+5 Dexterity Vest|-11|0
+22|+5 Dexterity Vest|-12|0
+23|+5 Dexterity Vest|-13|0
+24|+5 Dexterity Vest|-14|0
+25|+5 Dexterity Vest|-15|0
+26|+5 Dexterity Vest|-16|0
+27|+5 Dexterity Vest|-17|0
+28|+5 Dexterity Vest|-18|0
+29|+5 Dexterity Vest|-19|0
+30|+5 Dexterity Vest|-20|0
+0|Aged Brie|2|0
+1|Aged Brie|1|1
+2|Aged Brie|0|2
+3|Aged Brie|-1|4
+4|Aged Brie|-2|6
+5|Aged Brie|-3|8
+6|Aged Brie|-4|10
+7|Aged Brie|-5|12
+8|Aged Brie|-6|14
+9|Aged Brie|-7|16
+10|Aged Brie|-8|18
+11|Aged Brie|-9|20
+12|Aged Brie|-10|22
+13|Aged Brie|-11|24
+14|Aged Brie|-12|26
+15|Aged Brie|-13|28
+16|Aged Brie|-14|30
+17|Aged Brie|-15|32
+18|Aged Brie|-16|34
+19|Aged Brie|-17|36
+20|Aged Brie|-18|38
+21|Aged Brie|-19|40
+22|Aged Brie|-20|42
+23|Aged Brie|-21|44
+24|Aged Brie|-22|46
+25|Aged Brie|-23|48
+26|Aged Brie|-24|50
+27|Aged Brie|-25|50
+28|Aged Brie|-26|50
+29|Aged Brie|-27|50
+30|Aged Brie|-28|50
+0|Elixir of the Mongoose|5|7
+1|Elixir of the Mongoose|4|6
+2|Elixir of the Mongoose|3|5
+3|Elixir of the Mongoose|2|4
+4|Elixir of the Mongoose|1|3
+5|Elixir of the Mongoose|0|2
+6|Elixir of the Mongoose|-1|0
+7|Elixir of the Mongoose|-2|0
+8|Elixir of the Mongoose|-3|0
+9|Elixir of the Mongoose|-4|0
+10|Elixir of the Mongoose|-5|0
+11|Elixir of the Mongoose|-6|0
+12|Elixir of the Mongoose|-7|0
+13|Elixir of the Mongoose|-8|0
+14|Elixir of the Mongoose|-9|0
+15|Elixir of the Mongoose|-10|0
+16|Elixir of the Mongoose|-11|0
+17|Elixir of the Mongoose|-12|0
+18|Elixir of the Mongoose|-13|0
+19|Elixir of the Mongoose|-14|0
+20|Elixir of the Mongoose|-15|0
+21|Elixir of the Mongoose|-16|0
+22|Elixir of the Mongoose|-17|0
+23|Elixir of the Mongoose|-18|0
+24|Elixir of the Mongoose|-19|0
+25|Elixir of the Mongoose|-20|0
+26|Elixir of the Mongoose|-21|0
+27|Elixir of the Mongoose|-22|0
+28|Elixir of the Mongoose|-23|0
+29|Elixir of the Mongoose|-24|0
+30|Elixir of the Mongoose|-25|0
+0|Sulfuras, Hand of Ragnaros|0|80
+1|Sulfuras, Hand of Ragnaros|0|80
+2|Sulfuras, Hand of Ragnaros|0|80
+3|Sulfuras, Hand of Ragnaros|0|80
+4|Sulfuras, Hand of Ragnaros|0|80
+5|Sulfuras, Hand of Ragnaros|0|80
+6|Sulfuras, Hand of Ragnaros|0|80
+7|Sulfuras, Hand of Ragnaros|0|80
+8|Sulfuras, Hand of Ragnaros|0|80
+9|Sulfuras, Hand of Ragnaros|0|80
+10|Sulfuras, Hand of Ragnaros|0|80
+11|Sulfuras, Hand of Ragnaros|0|80
+12|Sulfuras, Hand of Ragnaros|0|80
+13|Sulfuras, Hand of Ragnaros|0|80
+14|Sulfuras, Hand of Ragnaros|0|80
+15|Sulfuras, Hand of Ragnaros|0|80
+16|Sulfuras, Hand of Ragnaros|0|80
+17|Sulfuras, Hand of Ragnaros|0|80
+18|Sulfuras, Hand of Ragnaros|0|80
+19|Sulfuras, Hand of Ragnaros|0|80
+20|Sulfuras, Hand of Ragnaros|0|80
+21|Sulfuras, Hand of Ragnaros|0|80
+22|Sulfuras, Hand of Ragnaros|0|80
+23|Sulfuras, Hand of Ragnaros|0|80
+24|Sulfuras, Hand of Ragnaros|0|80
+25|Sulfuras, Hand of Ragnaros|0|80
+26|Sulfuras, Hand of Ragnaros|0|80
+27|Sulfuras, Hand of Ragnaros|0|80
+28|Sulfuras, Hand of Ragnaros|0|80
+29|Sulfuras, Hand of Ragnaros|0|80
+30|Sulfuras, Hand of Ragnaros|0|80
+0|Sulfuras, Hand of Ragnaros|-1|80
+1|Sulfuras, Hand of Ragnaros|-1|80
+2|Sulfuras, Hand of Ragnaros|-1|80
+3|Sulfuras, Hand of Ragnaros|-1|80
+4|Sulfuras, Hand of Ragnaros|-1|80
+5|Sulfuras, Hand of Ragnaros|-1|80
+6|Sulfuras, Hand of Ragnaros|-1|80
+7|Sulfuras, Hand of Ragnaros|-1|80
+8|Sulfuras, Hand of Ragnaros|-1|80
+9|Sulfuras, Hand of Ragnaros|-1|80
+10|Sulfuras, Hand of Ragnaros|-1|80
+11|Sulfuras, Hand of Ragnaros|-1|80
+12|Sulfuras, Hand of Ragnaros|-1|80
+13|Sulfuras, Hand of Ragnaros|-1|80
+14|Sulfuras, Hand of Ragnaros|-1|80
+15|Sulfuras, Hand of Ragnaros|-1|80
+16|Sulfuras, Hand of Ragnaros|-1|80
+17|Sulfuras, Hand of Ragnaros|-1|80
+18|Sulfuras, Hand of Ragnaros|-1|80
+19|Sulfuras, Hand of Ragnaros|-1|80
+20|Sulfuras, Hand of Ragnaros|-1|80
+21|Sulfuras, Hand of Ragnaros|-1|80
+22|Sulfuras, Hand of Ragnaros|-1|80
+23|Sulfuras, Hand of Ragnaros|-1|80
+24|Sulfuras, Hand of Ragnaros|-1|80
+25|Sulfuras, Hand of Ragnaros|-1|80
+26|Sulfuras, Hand of Ragnaros|-1|80
+27|Sulfuras, Hand of Ragnaros|-1|80
+28|Sulfuras, Hand of Ragnaros|-1|80
+29|Sulfuras, Hand of Ragnaros|-1|80
+30|Sulfuras, Hand of Ragnaros|-1|80
+0|Backstage passes to a TAFKAL80ETC concert|15|20
+1|Backstage passes to a TAFKAL80ETC concert|14|21
+2|Backstage passes to a TAFKAL80ETC concert|13|22
+3|Backstage passes to a TAFKAL80ETC concert|12|23
+4|Backstage passes to a TAFKAL80ETC concert|11|24
+5|Backstage passes to a TAFKAL80ETC concert|10|25
+6|Backstage passes to a TAFKAL80ETC concert|9|27
+7|Backstage passes to a TAFKAL80ETC concert|8|29
+8|Backstage passes to a TAFKAL80ETC concert|7|31
+9|Backstage passes to a TAFKAL80ETC concert|6|33
+10|Backstage passes to a TAFKAL80ETC concert|5|35
+11|Backstage passes to a TAFKAL80ETC concert|4|38
+12|Backstage passes to a TAFKAL80ETC concert|3|41
+13|Backstage passes to a TAFKAL80ETC concert|2|44
+14|Backstage passes to a TAFKAL80ETC concert|1|47
+15|Backstage passes to a TAFKAL80ETC concert|0|50
+16|Backstage passes to a TAFKAL80ETC concert|-1|0
+17|Backstage passes to a TAFKAL80ETC concert|-2|0
+18|Backstage passes to a TAFKAL80ETC concert|-3|0
+19|Backstage passes to a TAFKAL80ETC concert|-4|0
+20|Backstage passes to a TAFKAL80ETC concert|-5|0
+21|Backstage passes to a TAFKAL80ETC concert|-6|0
+22|Backstage passes to a TAFKAL80ETC concert|-7|0
+23|Backstage passes to a TAFKAL80ETC concert|-8|0
+24|Backstage passes to a TAFKAL80ETC concert|-9|0
+25|Backstage passes to a TAFKAL80ETC concert|-10|0
+26|Backstage passes to a TAFKAL80ETC concert|-11|0
+27|Backstage passes to a TAFKAL80ETC concert|-12|0
+28|Backstage passes to a TAFKAL80ETC concert|-13|0
+29|Backstage passes to a TAFKAL80ETC concert|-14|0
+30|Backstage passes to a TAFKAL80ETC concert|-15|0
+0|Backstage passes to a TAFKAL80ETC concert|10|49
+1|Backstage passes to a TAFKAL80ETC concert|9|50
+2|Backstage passes to a TAFKAL80ETC concert|8|50
+3|Backstage passes to a TAFKAL80ETC concert|7|50
+4|Backstage passes to a TAFKAL80ETC concert|6|50
+5|Backstage passes to a TAFKAL80ETC concert|5|50
+6|Backstage passes to a TAFKAL80ETC concert|4|50
+7|Backstage passes to a TAFKAL80ETC concert|3|50
+8|Backstage passes to a TAFKAL80ETC concert|2|50
+9|Backstage passes to a TAFKAL80ETC concert|1|50
+10|Backstage passes to a TAFKAL80ETC concert|0|50
+11|Backstage passes to a TAFKAL80ETC concert|-1|0
+12|Backstage passes to a TAFKAL80ETC concert|-2|0
+13|Backstage passes to a TAFKAL80ETC concert|-3|0
+14|Backstage passes to a TAFKAL80ETC concert|-4|0
+15|Backstage passes to a TAFKAL80ETC concert|-5|0
+16|Backstage passes to a TAFKAL80ETC concert|-6|0
+17|Backstage passes to a TAFKAL80ETC concert|-7|0
+18|Backstage passes to a TAFKAL80ETC concert|-8|0
+19|Backstage passes to a TAFKAL80ETC concert|-9|0
+20|Backstage passes to a TAFKAL80ETC concert|-10|0
+21|Backstage passes to a TAFKAL80ETC concert|-11|0
+22|Backstage passes to a TAFKAL80ETC concert|-12|0
+23|Backstage passes to a TAFKAL80ETC concert|-13|0
+24|Backstage passes to a TAFKAL80ETC concert|-14|0
+25|Backstage passes to a TAFKAL80ETC concert|-15|0
+26|Backstage passes to a TAFKAL80ETC concert|-16|0
+27|Backstage passes to a TAFKAL80ETC concert|-17|0
+28|Backstage passes to a TAFKAL80ETC concert|-18|0
+29|Backstage passes to a TAFKAL80ETC concert|-19|0
+30|Backstage passes to a TAFKAL80ETC concert|-20|0
+0|Backstage passes to a TAFKAL80ETC concert|5|49
+1|Backstage passes to a TAFKAL80ETC concert|4|50
+2|Backstage passes to a TAFKAL80ETC concert|3|50
+3|Backstage passes to a TAFKAL80ETC concert|2|50
+4|Backstage passes to a TAFKAL80ETC concert|1|50
+5|Backstage passes to a TAFKAL80ETC concert|0|50
+6|Backstage passes to a TAFKAL80ETC concert|-1|0
+7|Backstage passes to a TAFKAL80ETC concert|-2|0
+8|Backstage passes to a TAFKAL80ETC concert|-3|0
+9|Backstage passes to a TAFKAL80ETC concert|-4|0
+10|Backstage passes to a TAFKAL80ETC concert|-5|0
+11|Backstage passes to a TAFKAL80ETC concert|-6|0
+12|Backstage passes to a TAFKAL80ETC concert|-7|0
+13|Backstage passes to a TAFKAL80ETC concert|-8|0
+14|Backstage passes to a TAFKAL80ETC concert|-9|0
+15|Backstage passes to a TAFKAL80ETC concert|-10|0
+16|Backstage passes to a TAFKAL80ETC concert|-11|0
+17|Backstage passes to a TAFKAL80ETC concert|-12|0
+18|Backstage passes to a TAFKAL80ETC concert|-13|0
+19|Backstage passes to a TAFKAL80ETC concert|-14|0
+20|Backstage passes to a TAFKAL80ETC concert|-15|0
+21|Backstage passes to a TAFKAL80ETC concert|-16|0
+22|Backstage passes to a TAFKAL80ETC concert|-17|0
+23|Backstage passes to a TAFKAL80ETC concert|-18|0
+24|Backstage passes to a TAFKAL80ETC concert|-19|0
+25|Backstage passes to a TAFKAL80ETC concert|-20|0
+26|Backstage passes to a TAFKAL80ETC concert|-21|0
+27|Backstage passes to a TAFKAL80ETC concert|-22|0
+28|Backstage passes to a TAFKAL80ETC concert|-23|0
+29|Backstage passes to a TAFKAL80ETC concert|-24|0
+30|Backstage passes to a TAFKAL80ETC concert|-25|0
