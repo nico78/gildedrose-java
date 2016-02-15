@@ -29,17 +29,16 @@ class GildedRose {
     }
 
     private void updateDefault(Item item) {
-        if (item.quality > 0) {
-            item.quality = item.quality - 1;
-        }
+        advanceSellIn(item);
+        QualityChange dec =
+                pastSellBy(item)
+                        ? incBy(-2)
+                        : incBy(-1);
+        changeQuality(item, dec);
+    }
 
-        item.sellIn = item.sellIn - 1;
-
-        if (item.sellIn < 0) {
-            if (item.quality > 0) {
-                item.quality = item.quality - 1;
-            }
-        }
+    private boolean pastSellBy(Item item) {
+        return dueIn(item, 0);
     }
 
     private void updateForSulfuras(Item item) {
@@ -47,41 +46,63 @@ class GildedRose {
     }
 
     private void updateForBackstagePass(Item item) {
-        if (item.quality < 50) {
-            item.quality = item.quality + 1;
+        advanceSellIn(item);
+        QualityChange inc = null;
+        if (pastSellBy(item)) inc = n -> 0;
+        else if (dueIn(item, 5)) inc = incBy(3);
+        else if (dueIn(item, 10)) inc = incBy(2);
+        else inc = incBy(1);
+        changeQuality(item, inc);
+    }
 
-            if (item.sellIn < 11) {
-                if (item.quality < 50) {
-                    item.quality = item.quality + 1;
-                }
-            }
-
-            if (item.sellIn < 6) {
-                if (item.quality < 50) {
-                    item.quality = item.quality + 1;
-                }
-            }
-        }
-
-        item.sellIn = item.sellIn - 1;
-
-        if (item.sellIn < 0) {
-            item.quality = 0;
-        }
+    private boolean dueIn(Item item, int daysDue) {
+        return item.sellIn < daysDue;
     }
 
     private void updateForAgedBrie(Item item) {
-        if (item.quality < 50) {
-            item.quality = item.quality + 1;
-        }
+        advanceSellIn(item);
+        QualityChange inc = null;
+        if (pastSellBy(item)) inc = incBy(2);
+        else inc = incBy(1);
+        changeQuality(item, inc);
+    }
 
+    private void advanceSellIn(Item item) {
         item.sellIn = item.sellIn - 1;
+    }
 
-        if (item.sellIn < 0) {
-            if (item.quality < 50) {
-                item.quality = item.quality + 1;
-            }
+    // ///////////////////////
+
+    @FunctionalInterface
+    private static interface QualityChange{
+        public int change(int quality);
+    }
+    private QualityChange incBy(int inc) {
+        return n -> n + inc;
+    }
+
+    private void degradeQuality(Item item) {
+        if (item.quality > 0) {
+            item.quality = item.quality - 1;
         }
+    }
+
+    private void incrementQuality(Item item, int inc) {
+        changeQuality(item, n -> n + 1);
+    }
+
+    private boolean roomForQualityImprovement(Item item) {
+        return item.quality < maxQuality();
+    }
+
+    private void changeQuality(Item item, QualityChange inc) {
+        item.quality = Math.max(Math.min(inc.change(item.quality), maxQuality()), minQuality());
+    }
+    private int minQuality() {
+        return 0;
+    }
+    private int maxQuality() {
+        return 50;
     }
 
 }
