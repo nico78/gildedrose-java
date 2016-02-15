@@ -60,6 +60,10 @@ class GildedRose {
     }
 
     private void updateForAgedBrie(Item item) {
+<<<<<<< HEAD
+=======
+        GRItem gritem = new GRItem(item);
+>>>>>>> e2732aa6a15bf75f42f4c9530402c0fef6ad4384
         advanceSellIn(item);
         QualityChange inc = null;
         if (pastSellBy(item)) inc = incBy(2);
