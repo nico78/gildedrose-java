@@ -19,6 +19,14 @@
                 </targetTests>
             </configuration>
         </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
     </plugins>
 </build>
     <dependencies>
@@ -46,7 +54,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
-            <version>[4.11,)</version>
+            <version>4.12</version>
         </dependency>
         <dependency>
             <groupId>approval-tests</groupId>
